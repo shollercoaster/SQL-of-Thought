@@ -1,0 +1,55 @@
+{
+  "syntax": {
+    "sql_syntax_error": "SQL syntax error",
+    "invalid_alias": "Invalid alias reference"
+  },
+  "schema_link": {
+    "table_missing": "Referenced table does not exist",
+    "col_missing": "Referenced column does not exist",
+    "ambiguous_col": "Ambiguous column reference",
+    "incorrect_foreign_key": "Incorrect column used as foreign key"
+  },
+  "join": {
+    "join_missing": "Missing JOIN condition",
+    "join_wrong_type": "Incorrect join type",
+    "extra_table": "Unused table in FROM/JOIN",
+    "incorrect_col": "Using incorrect column name to perform join"
+  },
+  "filter": {
+    "where_missing": "Missing WHERE for filter in question",
+    "condition_wrong_col": "Condition uses wrong column",
+    "condition_type_mismatch": "Type mismatch in WHERE condition"
+  },
+  "aggregation": {
+    "agg_no_groupby": "Aggregation without GROUP BY",
+    "groupby_missing_col": "Missing column in GROUP BY",
+    "having_without_groupby": "HAVING used without GROUP BY",
+    "having_incorrect": "Incorrect placement of HAVING",
+    "having_vs_where": "Usage of HAVING confused with usage of WHERE"
+  },
+  "value": {
+    "hardcoded_value": "Hardcoded literal instead of column",
+    "value_format_wrong": "Value format incompatible"
+  },
+  "subquery": {
+    "unused_subquery": "Subquery not used",
+    "subquery_missing": "Needed subquery missing",
+    "subquery_correlation_error": "Correlation error in subquery"
+  },
+  "set_op": {
+    "union_missing": "UNION query without UNION operator",
+    "intersect_missing": "INTERSECT missing",
+    "except_missing": "EXCEPT missing"
+  },
+  "others": {
+    "order_by_missing": "ORDER BY needed but missing",
+    "limit_missing": "LIMIT needed but missing",
+    "duplicate_select": "Duplicate columns in SELECT",
+    "unsupported_function": "Function not supported",
+    "incorrect_foreign_key_relationship": "Used Incorrect foreign key relationship"
+  },
+  "select": {
+    "incorrect_extra_values": "Columns or values selected are incorrect or extra",
+    "incorrect_order": "Values selected are in the wrong order"
+  }
+}
